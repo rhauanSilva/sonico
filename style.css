@@ -53,3 +53,25 @@ footer {
     height: 50px;
     text-align: center;
 }
+
+aside ul li:hover {
+    cursor: pointer;
+    color: rgb(0, 47, 255);
+}
+
+
+aside ul li {
+    position: relative;
+    padding: 5px 20px;
+}
+
+
+aside ul li::before {
+    content: "►";
+ 
+}
+
+
+aside ul li::after {
+    content: "◄";
+}
